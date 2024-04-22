@@ -10,32 +10,45 @@ body {
   line-height: 1.5;
 }
 
-h1 {
-  size: 28px;
-}
-
-h2 {
-  size: 16px;
-}
-
-
-.obsah-sekce {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 80px 0;
-}
-
-.dva-sloupce {
+.container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.sloupec {
-  flex: 0 0 calc((100% - 30px) / 2);
+h1 {}
+
+h2 {}
+
+.tlacitka {
+  text-align: center;
+  /* Zarovnání obsahu do středu */
 }
 
-.foto {
-  width: 100%;
+button {
+  margin: 10px;
+  /* Odsazení tlačítek od sebe */
+  padding: 10px 20px;
+  /* Vnitřní plnění tlačítka */
+  border: none;
+  /* Odstranění ohraničení */
   border-radius: 5px;
+  /* Zaoblené rohy */
+  cursor: pointer;
+  /* Ukazatel myši při najetí na tlačítko */
+  font-size: 16px;
+  /* Velikost písma */
+}
+
+button.adventure {
+  background-color: #407BFF;
+  /* Barva pozadí pro tlačítko dobrodružství */
+  color: #fff;
+  /* Barva textu pro tlačítko dobrodružství */
+}
+
+button.beach {
+  background-color: #F0AD4E;
+  /* Barva pozadí pro tlačítko pláž */
+  color: #fff;
+  /* Barva textu pro tlačítko pláž */
 }
