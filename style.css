@@ -4,51 +4,105 @@
 
 body {
   margin: 0;
+  padding-left: 82px;
+  margin-top: 60px;
+  /* Vzdálenost od levého okraje */
   font-family: 'Montserrat', sans-serif, medium;
-  color: #FAFAFA;
-  font-size: 16px;
-  line-height: 1.5;
+  color: black;
+  background-color: #FAFAFA;
+  size: 16px;
+  color: #8B8B8B;
 }
 
 .container {
   display: flex;
+  max-width: 1280px;
   justify-content: space-between;
 }
 
-h1 {}
-
-h2 {}
-
-.tlacitka {
-  text-align: center;
-  /* Zarovnání obsahu do středu */
+h1 {
+  size: 28px;
+  color: #000000;
+  text-align: left;
 }
 
-button {
-  margin: 10px;
-  /* Odsazení tlačítek od sebe */
-  padding: 10px 20px;
-  /* Vnitřní plnění tlačítka */
+p {
+  top: 212px;
+
+  width: 488px;
+  height: 65px;
+}
+
+h2 {
+  color: #000000;
+}
+
+.sloupec-foto {
+  top: 60px;
+  margin-right: 664px;
+  width: 426px;
+  height: 354px;
+}
+
+.tlacitka button {
+  margin-top: 30px;
+  size: 14px;
+  color: white;
+  opacity: 1;
   border: none;
-  /* Odstranění ohraničení */
-  border-radius: 5px;
-  /* Zaoblené rohy */
-  cursor: pointer;
-  /* Ukazatel myši při najetí na tlačítko */
-  font-size: 16px;
-  /* Velikost písma */
+  border-radius: 20px;
 }
 
-button.adventure {
+.adventure {
+
+  width: 195px;
+  height: 40px;
   background-color: #407BFF;
-  /* Barva pozadí pro tlačítko dobrodružství */
-  color: #fff;
-  /* Barva textu pro tlačítko dobrodružství */
 }
 
-button.beach {
-  background-color: #F0AD4E;
-  /* Barva pozadí pro tlačítko pláž */
-  color: #fff;
-  /* Barva textu pro tlačítko pláž */
+.beach {
+
+  width: 220px;
+  height: 40px;
+  background-color: #8B8B8B;
+}
+
+.obsah-kancelar .cestovka {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.frame-icon {
+  display: inline-block;
+  flex: 1 1 calc(100% / 3);
+  border: 2px solid #407BFF1F;
+  box-shadow: 0px 4px 6px #407BFF1F;
+  border-radius: 10px;
+  opacity: 1;
+  text-align: center;
+  top: 40px;
+  left: 63px;
+  right: 63px;
+  width: 170px;
+  height: 191px;
+}
+
+.frame-icon p {
+  size: 13px;
+  color: #8B8B8B;
+  top: 100px;
+  bottom: 40px;
+  left: 14px;
+  right: 16px;
+  width: 140px;
+  height: 51px;
+}
+
+.obsah-delegat .delegat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
 }
