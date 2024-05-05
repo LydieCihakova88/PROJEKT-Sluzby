@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  padding-left: 82px;
+  padding-left: 80px;
   margin-top: 60px;
   /* Vzdálenost od levého okraje */
   font-family: 'Montserrat', sans-serif, medium;
@@ -12,12 +12,18 @@ body {
   background-color: #FAFAFA;
   size: 16px;
   color: #8B8B8B;
+
 }
 
 .container {
   display: flex;
-  max-width: 1280px;
   justify-content: space-between;
+  margin-bottom: 60px;
+  top: 80px
+}
+
+.sloupec {
+  display: flex;
 }
 
 h1 {
@@ -26,18 +32,35 @@ h1 {
   text-align: left;
 }
 
+h2 {
+  size: 28px;
+  color: #000000;
+}
+
+.obsah-kancelar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 16px;
+
+}
+
 p {
   top: 212px;
-
   width: 488px;
   height: 65px;
 }
 
-h2 {
-  color: #000000;
+.sloupec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 calc(100% / 2);
 }
 
 .sloupec-foto {
+  display: flex;
   top: 60px;
   margin-right: 664px;
   width: 426px;
@@ -54,7 +77,6 @@ h2 {
 }
 
 .adventure {
-
   width: 195px;
   height: 40px;
   background-color: #407BFF;
@@ -67,10 +89,8 @@ h2 {
   background-color: #8B8B8B;
 }
 
-.obsah-kancelar .cestovka {
+.obsah-kancelar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-size: 16px;
 }
 
