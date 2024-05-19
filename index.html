@@ -11,16 +11,21 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Naše vlastní CSS -->
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <!-- hero sekce s obrázkem a hlavním nadpisem -->
-    
-      <div class="container">
-        <div class="sloupec">
-          <h1 class="nadpis-sekce">Happy Travels</h1>
+<div class="wrapper">
+
+    <section class="hero">
+      <div class="hero-image-column">
+
+    <img class="foto-happy" src="icon_image/happy-traveler.svg"alt="happy-traveler" width="425px" height="354px">
+    </div>
+
+<div class="hero-content-column">
+      <h1>Happy Travels</h1>
 
           <p>
             Specializujeme se na exotické destinace a výjimečné zážitkové
@@ -28,89 +33,93 @@
             adrenalin nebo se jen opalovat na pláži.
           </p>
 
-          <div class="tlacitka">
-            <button class="adventure">Chci dobrodružství</button>
-            <button class="beach">Raději pohodu na pláži</button>
+          <div class="buttons">
+<a href="#" class="button button-primary">Chci dobrodružství</a>
+<a href="#" class="button button-secondary">Raději pohodu na pláži</a>
+</div>
+</div>
+</section>
+
+<section class="services services-intro">
+
+  <section class="services-text">
+  <h2>Služby naší cestovní kanceláře</h2>
+
+  <p>
+    Pomůžeme vám naplánovat vaši vysněnou dovolenou. Vybereme zajímavou
+    destinaci a zajistíme pro vás vše od ubtování až po letenky.
+  </p>
+
+</section>
+         
+      <!-- icon sekce s obrázkem a hlavním nadpisem -->
+  
+      <div class="boxes">
+          <div class="frame-icon">
+            <div class="icon">
+            <img src="icon_image/map-icon.svg" width="45" height="40" alt="mapa">
+          </div>
+         <p>Naplánujeme zájezdy a výlety do celého světa.</p>
           </div>
       
-        </div>
-
-        <div class="sloupec-foto">
-          <img
-            class="foto-happy"
-            src="icon_image/happy-traveler.svg"
-            alt="happy-traveler"
-            width="425px"
-            height="354px"
-          />
-        </div>
-      </div>
-
-
-    <!-- icon sekce s obrázkem a hlavním nadpisem -->
-
-      <div class="obsah-kancelar">
-        <h2 class="cestovka">Služby naší cestovní kanceláře</h2>
-
-        <p>
-          Pomůžeme vám naplánovat vaši vysněnou dovolenou. Vybereme zajímavou
-          destinaci a zajistíme pro vás vše od ubtování až po letenky.
-        </p>
-      </div>
-        <div class="frame-icon">
-          <img class="foto-mapa" src="icon_image/map-icon.svg" alt="mapa" />
-          <p>Naplánujeme zájezdy a výlety do celého světa.</p>
-        </div>
-
-        <div class="frame-icon">
-          <img
-            class="foto-cactus"
-            src="icon_image/cactus-icon.svg"
-            alt="kaktus"
-          />
-          <p>Zajistíme exotické destinace a zážitkové pobyty.</p>
-        </div>
-
-        <div class="frame-icon">
-          <img
-            class="foto-plane"
-            src="icon_image/plane-icon.svg"
-            alt="letadlo"
-          />
-          <p>Seženeme nejlevnější letenky v daném termínu.</p>
-        </div>
-    
   
+          <div class="frame-icon">
+            <div class="icon">
+            <img src="icon_image/cactus-icon.svg" width="40" height="40" alt="kaktus">
+          </div>
+          <p>Zajistíme exotické destinace a zážitkové pobyty.</p>   
+        </div>
+  
+          <div class="frame-icon">
+            <div class="icon">
+            <img src="icon_image/plane-icon.svg" width="45"height="40" alt="letadlo">
+          </div>
+       <p>Seženeme nejlevnější letenky v daném termínu.</p>
+          </div>
+  
+      </div>
 
-    <!-- delegát sekce s obrázkem a hlavním nadpisem -->
 
-    <div class="obsah-delegat">
-      <h2 class="delegat">Služby našich delegátů na místě</h2>
+</section>
+
+
+
+<section class="services">
+
+  <section class="services-text">
+
+    <h2>Služby našich delegátů na místě</h2>
 
       <p>
-        Naši delegáti na míste se starají o vaš pohodlí 24 hodin denně. Doporučí
-        vám ty nejlepší výlety po okolí, zařídí pronájem slunečníku nebo auta.
+        Naši delegáti na míste se starají o vaš pohodlí 24 hodin denně. Doporučí vám ty nejlepší výlety po okolí, zařídí pronájem slunečníku nebo auta.
       </p>
 
+    </section>
+
+    <div class="boxes"> 
       <div class="frame-icon">
-        <img class="icon-palma" src="icon_image/palm-icon.svg" alt="palma" /> <p>Doporučíme ty nejhezčí destinace pro výlety.</p>
+        <div class="icon">
+        <img src="icon_image/palm-icon.svg" width="50" height="40"alt="palma"> 
       </div>
+        <p>Doporučíme ty nejhezčí destinace pro výlety.</p>   
+    </div>
 
         <div class="frame-icon">
-        <img
-          class="icon-umbrella"
-          src="icon_image/umbrella-icon.svg"
-          alt="deštník"/>
+          <div class="icon">
+        <img src="icon_image/umbrella-icon.svg" width="50" height="40" alt="deštník">
+      </div>
         <p>Objednáme slunečníky a plážová lehátka.</p>
-
       </div>
 
       <div class="frame-icon">
-        <img class="icon-caravan" src="icon_image/rv-icon.svg" alt="karavan" />
-        <p>Pronajmeme karavan nebo vůz na cestování.</p>
-
-         </div>
-      </div>
+        <div class="icon">
+      <img src="icon_image/rv-icon.svg" width="50" height="40" alt="karavan">
     </div>
+        <p>Pronajmeme karavan nebo vůz na cestování.</p>
+         </div>
+        </div>
+</section>
+
+      </div>
   </body>
 </html>
